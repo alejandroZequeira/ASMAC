@@ -64,6 +64,15 @@ class Object:
     bucket_id: str
     user_id: str
     is_public: bool
+    is_binding:bool
+    
+    def __init__(self,key:str="",alias:str="",bucket_id:str="",user_id:str="",is_public: bool=False,is_binding:bool=False):
+        self.key=key
+        self.alias=alias
+        self.bucket_id=bucket_id
+        self.user_id=user_id
+        self.is_public=is_public
+        self.is_binding=is_binding  
     
     def to_json(self):
         return {
@@ -87,6 +96,21 @@ class Object:
         self.is_public = is_public
         res=obj.persistify()
         return Ok(res) if res else Err("Error persisting object")
+class BindingObject(Object):
+    graf:list[Dict]
+    
+    def __init__(self,key:str,alias:str,graf):
+        super().__init__(key=key,alias=alias,is_binding=True)
+        self.graf=graf
+        
+    def to_json(self):
+        return {"key":self.key,
+                "alias":self.alias,
+                "graf":self.graf}
+        
+    def execute(self):
+        pass
+    
     
 class Mesh(ASMACMeta):
     objects:List[object]
