@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "asmac"
+version = "0.1.0"
+description = ""
+authors = ["alejandroZequeira <alejandrozequeirarosa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10.12,<3.11"
+zmp = "^6.9"
+zmq = "^0.0.0"
+mpu = "^0.23.1"
+mictlanx = ">=0.0.160"
+activex = {path = "/home/alejandro/documentos/clones/activex", develop = true}
+pymongo = "^4.13.2"
+logger = "^1.4"
+fastapi = "^0.116.1"
+
+[[tool.poetry.source]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+priority = "supplemental"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
