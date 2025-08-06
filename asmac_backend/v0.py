@@ -11,21 +11,21 @@ AXO_ENDPOINT_PUBSUB_PORT  = int(os.environ.get("AXO_ENDPOINT_PUBSUB_PORT","16000
 AXO_ENDPOINT_REQ_RES_PORT = int(os.environ.get("AXO_ENDPOINT_REQ_RES_PORT","16667"))
 
 def init_axo():
-    endporint = XoloEndpointManager(
+    endpoint = XoloEndpointManager(
         endpoint_id=AXO_ENDPOINT_ID,
         protocol=AXO_ENDPOINT_PROTOCOL,
         hostname=AXO_ENDPOINT_HOSTNAME,
         pubsub_port=AXO_ENDPOINT_PUBSUB_PORT,
         req_res_port=AXO_ENDPOINT_REQ_RES_PORT
     )
-    return endporint
+    return endpoint
 
 # funciones de control de usuario
 def create_user(name:str, password:str, user_name:str=None, storage_service:StorageService=None) -> User:
     user = User(name=name, password=password, user_name=user_name)
     if storage_service:
         result = storage_service.put("users", user.user_id, user)
-        if result.is_ok():
+        if result.is_ok:
             print(f"Usuario {user.name} creado correctamente.")
         else:
             print(f"Error al crear usuario: {result.error}")

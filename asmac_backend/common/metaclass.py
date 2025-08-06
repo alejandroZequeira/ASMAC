@@ -8,7 +8,7 @@ import struct
 import types
 from option import Result,Ok,Err
 from activex import Axo
-
+from activex.endpoint import endpoint
 
 ALPHABET = string.ascii_lowercase+string.digits
 ASMAC_ID_SIZE =int(os.environ.get("ASMAC_ID_SIZE","16"))
@@ -109,9 +109,23 @@ class BindingObject(Object):
                 "graf":self.graf}
         
     def execute(self):
-        pass
-    
-    
+        for g in self.graf:
+            obj=Axo.get_by_key(g.key,g.bucket_id)
+            if obj.is_ok:
+                obj=obj.unwrap()
+                method=obj.call(obj,g.method_name,args=g.args,kwargs=g.kwargs)
+                if method.is_ok:
+                    res = endpoint.method_execution(
+                    key=obj.get_axo_key(),
+                    fname=obj.__name__,
+                    ao=obj,
+                    f= method,
+                    fargs=g.args,
+                    fkwargs=g.kwargs
+                )
+
+
+
 class Mesh(ASMACMeta):
     objects:List[object]
     mesh_id: str
