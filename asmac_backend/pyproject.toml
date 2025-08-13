@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "asmac"
-version = "0.1.0"
-description = ""
-authors = ["alejandroZequeira <alejandrozequeirarosa@gmail.com>"]
+name = "asmac_backend"
+version = "0.0.1"
+description = "metadata system for active objects"
+authors = ["Alejandro de la Rosa Zequeira"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

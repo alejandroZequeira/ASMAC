@@ -1,5 +1,5 @@
-from activex import Axo
-from activex.endpoint import XoloEndpointManager
+from axo import Axo
+from axo.endpoint.manager import DistributedEndpointManager
 from common import User,Object,service,Mesh,ASMACMeta
 from storage import StorageService, MongoDBStorageService
 import os
@@ -11,7 +11,8 @@ AXO_ENDPOINT_PUBSUB_PORT  = int(os.environ.get("AXO_ENDPOINT_PUBSUB_PORT","16000
 AXO_ENDPOINT_REQ_RES_PORT = int(os.environ.get("AXO_ENDPOINT_REQ_RES_PORT","16667"))
 
 def init_axo():
-    endpoint = XoloEndpointManager(
+    endpoint = DistributedEndpointManager()
+    endpoint.add_endpoint(
         endpoint_id=AXO_ENDPOINT_ID,
         protocol=AXO_ENDPOINT_PROTOCOL,
         hostname=AXO_ENDPOINT_HOSTNAME,
@@ -56,7 +57,7 @@ def set_object(obj:Axo,alias:str,is_public: bool,user_id:str,storage_service:Sto
         if res.is_ok():
             print(f"Objeto {obj.key} preparado para publicación.")
             result = storage_service.put("objects", obj.key, obj)
-            if result.is_ok():
+            if result.is_ok:
                 print(f"Objeto {obj.key} publicado correctamente.")
             else:
                 print(f"Error al publicar objeto: {result.error}")
@@ -85,6 +86,8 @@ def get_objects_to_mesh():
 def create_service():
     pass
 
+def get_meshes():
+    pass
 
 # binding objects
 def create_binding_object():

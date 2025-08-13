@@ -1,6 +1,6 @@
-FROM python:3.9
+FROM python:3.10
 
-WORKDIR /app
+WORKDIR /asmac_backend
 
 RUN pip3 install poetry
 
@@ -9,11 +9,9 @@ ENV POETRY_NO_INTERACTION=1 \
     POETRY_VIRTUALENVS_CREATE=1 \
     POETRY_CACHE_DIR=/tmp/poetry_cache
 
-COPY . app/
+COPY . asmac_backend/
+COPY . ./
 
-COPY ../pyproject.toml app/
-COPY ../README.md app/
-
-RUN poetry shell
+RUN poetry config virtualenvs.create false
 RUN poetry lock
 RUN poetry install
