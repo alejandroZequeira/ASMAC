@@ -1,1 +1,1 @@
-from .v1 import ASMAC, active_method
+from .v1 import ASMaC

@@ -7,12 +7,29 @@ import re
 import struct
 import types
 from option import Result,Ok,Err
-from activex import Axo
-from activex.endpoint import endpoint
+from axo import Axo
+from axo.contextmanager.contextmanager import AxoContextManager
+from axo.endpoint.manager import DistributedEndpointManager
 
 ALPHABET = string.ascii_lowercase+string.digits
 ASMAC_ID_SIZE =int(os.environ.get("ASMAC_ID_SIZE","16"))
 
+AXO_ENDPOINT_ID           = os.environ.get("AXO_ENDPOINT_ID","activex-endpoint-0")
+AXO_ENDPOINT_PROTOCOL     = os.environ.get("AXO_ENDPOINT_PROTOCOL","tcp")
+AXO_ENDPOINT_HOSTNAME     = os.environ.get("AXO_ENDPOINT_HOSTNAME","localhost")
+AXO_ENDPOINT_PUBSUB_PORT  = int(os.environ.get("AXO_ENDPOINT_PUBSUB_PORT","16000"))
+AXO_ENDPOINT_REQ_RES_PORT = int(os.environ.get("AXO_ENDPOINT_REQ_RES_PORT","16667"))
+
+def init_axo():
+        endpoint = DistributedEndpointManager()
+        endpoint.add_endpoint(
+            endpoint_id=AXO_ENDPOINT_ID,
+            protocol=AXO_ENDPOINT_PROTOCOL,
+            hostname=AXO_ENDPOINT_HOSTNAME,
+            pubsub_port=AXO_ENDPOINT_PUBSUB_PORT,
+            req_res_port=AXO_ENDPOINT_REQ_RES_PORT
+        )
+        return endpoint
 
 def generate_id_size(size:int=ASMAC_ID_SIZE):
     def __in(v:str)->str:
@@ -85,17 +102,21 @@ class Object:
     def set_public(self):
         self.is_public = True
     
-    def get_object_by_alias(self) ->Result[Axo]:
-        return Axo.get_by_key(key=self.key,bucket_id=self.bucket_id)
+    async def get_object_by_alias(self) ->Result[Axo,Any]:
+        return await Axo.get_by_key(key=self.key,bucket_id=self.bucket_id)
     
-    def set_object(self, obj:Axo, alias:str=None, is_public:bool=False, user_id:str=None):
-        self.key = obj.key
+    async def set_object(self, obj:Axo, alias:str=None, is_public:bool=False, user_id:str=None) -> Result[Axo, Any]:
+        
+        self.key = obj.get_axo_key()
         self.alias = alias
-        self.bucket_id = obj.bucket_id
+        self.bucket_id = obj.get_axo_bucket_id()
         self.user_id = user_id
         self.is_public = is_public
-        res=obj.persistify()
+        print(obj.get_endpoint_id())
+        with AxoContextManager.distributed(endpoint_manager=init_axo()) as cx:
+            res=await obj.persistify()
         return Ok(res) if res else Err("Error persisting object")
+    
 class BindingObject(Object):
     graf:list[Dict]
     
@@ -110,19 +131,21 @@ class BindingObject(Object):
         
     def execute(self):
         for g in self.graf:
-            obj=Axo.get_by_key(g.key,g.bucket_id)
-            if obj.is_ok:
-                obj=obj.unwrap()
-                method=obj.call(obj,g.method_name,args=g.args,kwargs=g.kwargs)
-                if method.is_ok:
-                    res = endpoint.method_execution(
-                    key=obj.get_axo_key(),
-                    fname=obj.__name__,
-                    ao=obj,
-                    f= method,
-                    fargs=g.args,
-                    fkwargs=g.kwargs
-                )
+            with AxoContextManager.distributed(endpoint_manager=init_axo()) as cx:
+                obj=Axo.get_by_key(g["key"],g["bucket_id"])
+                if obj.is_ok:
+                    obj=obj.unwrap()
+                    method=obj.call(obj,g.method_name,args=g.args,kwargs=g.kwargs)
+                    if method.is_ok:
+                        cx.run()
+                        res = DistributedEndpointManager.method_execution(
+                        key=obj.get_axo_key(),
+                        fname=obj.__name__,
+                        ao=obj,
+                        f= method,
+                        fargs=g.args,
+                        fkwargs=g.kwargs
+                    )
 
 
 
@@ -153,6 +176,7 @@ class Mesh(ASMACMeta):
             "description": self.description,
             "objects": [obj.to_json() for obj in self.objects]
         }
+        
     def to_json(self):
         return self.get_mesh()
     
