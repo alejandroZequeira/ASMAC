@@ -23,7 +23,9 @@ class StorageService:
     @abstractmethod
     def get(self,bd:str,key:str,condition:str)->Result[bytes,Exception]:
         pass
-
+    @abstractmethod
+    def update(self,bd:str,key:str,condition:str,new_values:Dict[str,Any])->Result[str,Exception]:
+        pass
 class MongoDBStorageService(StorageService):
     def __init__(self, storage_service_id: str = "ASMAC-Mongo", db: str = "ASMAC"):
         super().__init__(storage_service_id)
@@ -64,5 +66,32 @@ class MongoDBStorageService(StorageService):
                 return Err(Exception(f"No se encontró ningún documento en '{collection_name}' con la condición: {condition}"))
             
             return Ok(result)  # devuelve todo el documento como dict
+        except Exception as e:
+            return Err(e)
+        
+    def update(
+        self,
+        collection_name: str,
+        condition: Dict[str, Any],
+        new_values: Dict[str, Any]
+    ) -> Result[Dict[str, Any], Exception]:
+        """
+        Actualiza un documento en la colección.
+        condition -> filtro de búsqueda
+        new_values -> valores a actualizar (sin $set, ya lo añadimos aquí)
+        """
+        try:
+            collection = self.db[collection_name]
+            result = collection.update_one(condition, {"$set": new_values})
+            
+            if result.matched_count == 0:
+                return Err(Exception(
+                    f"No se encontró ningún documento en '{collection_name}' con la condición: {condition}"
+                ))
+            
+            return Ok({
+                "matched_count": result.matched_count,
+                "modified_count": result.modified_count
+            })
         except Exception as e:
             return Err(e)

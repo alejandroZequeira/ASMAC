@@ -11,7 +11,7 @@ ASMAC_BACKEND_PROTOCOL = os.getenv("ASMAC_BACKEND_PROTOCOL", "tcp")
 
 context = zmq.Context()
 socket = context.socket(zmq.REP)
-socket.bind("tcp://*:5555")
+socket.bind(ASMAC_BACKEND_PROTOCOL+"://*:" + ASMAC_BACKEND_PORT)
 
 print("Servidor ZeroMQ escuchando en puerto 5555...")
 
@@ -30,18 +30,34 @@ while True:
             user_name=data.get("user_name")
         )
         if response != None:
-            response = response.unwrap()        
+            response = response.unwrap()
     elif action == "GET.OBJECT.BY.ALIAS":
-        pass
+        user=ASMaC_Backend.login_user(
+            user_name=data.get("user_name"),
+            password=data.get("password")
+        )
+        response = ASMaC_Backend.get_object_by_alias(
+            alias=data.get("alias"),
+            user_id=user["user_id"]
+        )
+        if response != None:
+            response = response.unwrap()
     elif action == "PUT.MESH": 
-        pass
+        user=ASMaC_Backend.login_user(user_name=data.get("user_name"),password=data.get("password"))
+        response=ASMaC_Backend.create_mesh(mesh_name=data.get("mesh_name"), description=data.get("description"), user_id=user["user_id"])
+        if response == None:
+            response=f"create mesh not found"
     elif action == "GET.MESHES":
         pass
     elif action == "GET.OBJECTS.BY.MESH":
         pass
     elif action == "PUT.OBJECT":
-        pass
-    elif action == "GET.OBJECT.BY.ID":
+        user=ASMaC_Backend.login_user(user_name=data.get("user_name"),password=data.get("password"))
+        if user!=None:
+            response=ASMaC_Backend.set_object(obj=data.get("obj"),alias=data.get("alias"),is_public=data.get("is_public"),user_id=user["user_id"])
+            if response.is_ok:
+                response=response.unwrap()
+    elif action == "PUT.OBJECT.MESH":
         pass
     else:
         response = {"status": "error", "mensaje": "Acción no reconocida"}

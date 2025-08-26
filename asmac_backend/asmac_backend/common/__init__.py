@@ -1,1 +1,1 @@
-from .metaclass import ASMACMeta, User, Mesh, service, Object
+from .metaclass import ASMACMeta, User, Mesh, service, Object, BindingObject

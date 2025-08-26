@@ -129,15 +129,14 @@ class BindingObject(Object):
                 "alias":self.alias,
                 "graf":self.graf}
         
-    def execute(self):
+    async def execute(self):
         for g in self.graf:
             with AxoContextManager.distributed(endpoint_manager=init_axo()) as cx:
-                obj=Axo.get_by_key(g["key"],g["bucket_id"])
+                obj=await Axo.get_by_key(g["key"],g["bucket_id"])
                 if obj.is_ok:
                     obj=obj.unwrap()
                     method=obj.call(obj,g.method_name,args=g.args,kwargs=g.kwargs)
                     if method.is_ok:
-                        cx.run()
                         res = DistributedEndpointManager.method_execution(
                         key=obj.get_axo_key(),
                         fname=obj.__name__,
@@ -152,16 +151,32 @@ class BindingObject(Object):
 class Mesh(ASMACMeta):
     objects:List[object]
     mesh_id: str
-    category: str
+    name: str
     description: str
-    def __init__(self,category:str="default", mesh_id:str=None, description:str=""):
+    def __init__(self,name:str="default", description:str="", user_id: str=""):
         self.objects = []
-        self.mesh_id = mesh_id
-        self.category = category
+        key=generate_id_size()
+        self.mesh_id = key("")
+        self.name = name
         self.description = description
+        self.user_id=user_id
     
     def add_object(self,obj:object):
         self.objects.append(obj)
+    
+    def from_json(data:Dict)->'Mesh':
+        mesh=Mesh(name=data.get("name","default"), description=data.get("description",""),user_id=data.get("user_id",""))
+        mesh.mesh_id=data.get("mesh_id", generate_id_size())
+        objects=data.get("objects",[])
+        for obj in objects:
+            mesh.add_object(Object(
+                key=obj.get("key",""),
+                alias=obj.get("alias",""),
+                bucket_id=obj.get("bucket_id",""),
+                user_id=obj.get("user_id",""),
+                is_public=obj.get("is_public",True)
+            ))
+        return mesh
     
     def remove_object(self,obj:object):
         self.objects = [o for o in self.objects if o.key != obj.key]
@@ -172,7 +187,7 @@ class Mesh(ASMACMeta):
     def get_mesh(self):
         return {
             "mesh_id": self.mesh_id,
-            "category": self.category,
+            "category": self.name,
             "description": self.description,
             "objects": [obj.to_json() for obj in self.objects]
         }
@@ -190,7 +205,7 @@ class service(ASMACMeta):
         self.description = description
         self.meshes = []
     
-    def create_mesh(self,category:str="default", description:str="",objects: List[object]=[]) -> Mesh:
+    def create_mesh(self,category:str="default", description:str="") -> Mesh:
         mesh_id=nanoid(alphabet=ALPHABET, size=ASMAC_ID_SIZE)
         mesh = Mesh(category=category, mesh_id=mesh_id, description=description)
         self.mesh_id = mesh.mesh_id   
