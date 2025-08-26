@@ -5,7 +5,7 @@ import re
 from nanoid import generate as nanoid 
 import inspect
 from typing import Any, Dict, List, Optional, Tuple, Type, Union
-
+from backend import send
 
 ALPHABET = string.ascii_lowercase+string.digits
 ASMAC_ID_SIZE =int(os.environ.get("ASMAC_ID_SIZE","16"))
@@ -44,7 +44,9 @@ class BindingObject:
             "*args": inspect.getfullargspec(method).varargs,
             "**kwargs": inspect.getfullargspec(method).varkw
         })
-        
+    def persist(self):
+        pass
+    
     def run(self):
         pass
     

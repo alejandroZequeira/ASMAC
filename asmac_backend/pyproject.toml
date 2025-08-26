@@ -6,12 +6,12 @@ authors = ["Alejandro de la Rosa Zequeira"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.10.12,<3.11"0"
-axo =   ">=0.0.1a8"
+python = ">=3.10.12,<3.11.0"
+axo =   ">=0.0.2"
 zmp = "^6.9"
 zmq = "^0.0.0"
 mpu = "^0.23.1"
-mictlanx = ">=0.0.16
+mictlanx = ">=0.0.16"
 pymongo = "^4.13.2"
 logger = "^1.4"
 fastapi = "^0.116.1"

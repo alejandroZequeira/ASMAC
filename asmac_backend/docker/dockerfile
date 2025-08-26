@@ -16,4 +16,4 @@ RUN poetry config virtualenvs.create false
 RUN poetry lock
 RUN poetry install
 
-ENTRYPOINT [ "poetry","run", "python3", "asmac_backend/server.py" ]
+CMD  [ "poetry","run", "python3", "asmac_backend/server.py" ]

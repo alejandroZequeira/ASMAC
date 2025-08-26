@@ -1,6 +1,6 @@
 services:
     asmac-backend:
-        image: asmac-backend
+        image: alejandrozequeira/asmac-backend:0.0.01
         container_name: asmac_backend
         ports:
         - "4555:4555"
@@ -13,7 +13,7 @@ services:
         - MONGO_AUTH_DB=admin
         - AXO_ENDPOINT_ID=activex-endpoint-0
         - AXO_ENDPOINT_PROTOCOL=tcp
-        - AXO_ENDPOINT_HOSTNAME=localhost
+        - AXO_ENDPOINT_HOSTNAME=0.0.0.0
         - AXO_ENDPOINT_PUBSUB_PORT=16666
         - AXO_ENDPOINT_REQ_RES_PORT=16667
         networks:
@@ -54,7 +54,7 @@ services:
         - mongo
 
     activex-endpoint-0:
-        image: nachocode/axo:endpoint-0.0.1a4
+        image: nachocode/axo:endpoint-0.0.2
         container_name: axo-endpoint-0
         ports:
         - "16666:16666"
@@ -65,7 +65,7 @@ services:
         - AXO_LOGGER_PATH=/log
         - AXO_LOGGER_WHEN=h
         - AXO_LOGGER_INTERVAL=24
-        - AXO_ENDPOINT_IMAGE=nachocode/axo:endpoint-0.0.1a4
+        - AXO_ENDPOINT_IMAGE=nachocode/axo:endpoint-0.0.2
         - AXO_PROTOCOL=tcp
         - AXO_PUB_SUB_PORT=16666
         - AXO_REQ_RES_PORT=16667
@@ -82,6 +82,10 @@ services:
         - MICTLANX_LOG_OUTPUT_PATH=/log
         - MICTLANX_MAX_WORKERS=4
         - MICTLANX_ROUTERS=axo-storage-router-0:axo-storage-router-0:60666
+        - MICTLANX_ROUTERS=axo-storage-router-0:148.247.202.72:60666
+        
+
+
         volumes:
         - activex-endpoint-0:/log
         - activex-endpoint-0-source:/source
