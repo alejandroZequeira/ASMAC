@@ -1,0 +1,3527 @@
+{
+    "timestamp": "2025-08-28 11:50:31,500",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "Server error '500 Internal Server Error' for url 'http://localhost:60666/api/v4/buckets/uodjv55zab717b8x/metadata/ukczm7jom53x78te_source_code_0'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-08-28 12:00:37,335",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "Server error '500 Internal Server Error' for url 'http://localhost:60666/api/v4/buckets/0ml8qs273bsyl40f/metadata/55eytcx619a0leq1_source_code_0'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-08-28 12:27:23,373",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "Server error '500 Internal Server Error' for url 'http://localhost:60666/api/v4/buckets/ulxcglgwzehjwyas/metadata/ckclqdbq2flvuvmo_source_code_0'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-08-28 12:30:25,832",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "Server error '500 Internal Server Error' for url 'http://localhost:60666/api/v4/buckets/w6pf7830ay6vo074/metadata/h78ljdpc0nrdn302_source_code_0'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-08-28 12:30:27,455",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "Server error '500 Internal Server Error' for url 'http://localhost:60666/api/v4/buckets/8mo0w98ilh4e41pd/metadata/gfq5svg8w2w9oy83_source_code_0'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-08-28 12:42:10,204",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "Server error '500 Internal Server Error' for url 'http://localhost:60666/api/v4/buckets/9ymxdt0wkf4xhljx/metadata/gp5apgulcisa8ap9_source_code_0'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-08-28 12:42:26,462",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "Server error '500 Internal Server Error' for url 'http://localhost:60666/api/v4/buckets/n1ws6x2cpaszyaap/metadata/krau1ef7qo4cd5xe_source_code_0'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-08-28 13:08:54,082",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "Server error '500 Internal Server Error' for url 'http://localhost:60666/api/v4/buckets/eyjixq0lpmvm9avf/metadata/0x6639f9vodntjr3_source_code_0'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-08-29 14:27:00,370",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "Server error '500 Internal Server Error' for url 'http://localhost:60666/api/v4/buckets/v6pxhw6417gwep9c/metadata/zy06dpqwc66sz5fe_source_code_0'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-08-29 14:35:01,983",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "Server error '500 Internal Server Error' for url 'http://localhost:60666/api/v4/buckets/vdimi7httbesh2ig/metadata/ys0b02v3rq5qnnl4_source_code_0'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-08-29 14:40:55,756",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "Server error '500 Internal Server Error' for url 'http://localhost:60666/api/v4/buckets/gdsjba4hl2ayk76j/metadata/efyblhuiswa8hzpy_source_code_0'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-08-29 15:01:15,628",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "Server error '500 Internal Server Error' for url 'http://localhost:60666/api/v4/buckets/6s08vjf1fa7mk07a/metadata/f2yy43umgbe4jw0a_source_code_0'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-08-29 15:03:06,155",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "Server error '500 Internal Server Error' for url 'http://localhost:60666/api/v4/buckets/aj460xalx5dy35gw/metadata/gldxbvqkl78tw7db_source_code_0'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:06:13,981",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:06:15,001",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:06:15,311",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:06:15,316",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:06:15,319",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:06:15,319",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:06:15,323",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:06:16,327",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:06:16,533",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:06:16,590",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:06:16,610",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:06:16,610",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:39,441",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:40,469",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:40,863",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:40,936",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:40,973",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:40,975",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:40,977",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:41,980",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:42,331",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:42,480",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:42,525",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:42,525",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:43,303",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:44,307",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:44,774",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:44,944",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:44,961",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:44,962",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:44,963",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:45,967",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:45,989",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:45,993",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:45,996",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:45,996",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:46,881",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:47,885",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:48,285",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:48,369",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:48,390",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:48,391",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:48,393",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:49,396",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:49,593",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:49,610",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:49,617",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:49,617",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:50,465",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:51,469",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:51,830",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:51,839",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:51,844",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:51,844",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:51,848",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:52,852",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:53,273",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:53,356",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:53,382",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:53,382",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:54,225",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:55,228",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:55,527",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:55,599",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:55,606",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:55,606",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:55,608",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:56,612",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:57,065",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:57,275",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:57,291",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:57,291",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:58,193",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:59,196",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:59,538",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:59,704",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:59,714",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:59,715",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:07:59,717",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:00,720",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:01,210",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:01,347",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:01,388",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:01,388",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:02,279",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:03,283",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:03,653",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:03,695",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:03,711",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:03,712",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:03,714",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:04,718",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:04,736",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:04,745",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:04,749",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:04,749",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:05,574",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:06,578",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:06,630",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:06,640",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:06,646",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:06,646",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:06,648",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:07,652",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:07,663",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:07,668",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:07,674",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:07,674",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:08,533",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:09,543",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:09,601",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:09,615",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:09,625",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:09,626",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:09,629",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:12,713",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:12,892",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:12,977",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:12,992",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:12,993",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:13,716",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:14,720",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:14,800",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:14,819",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:14,826",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:14,827",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:14,829",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:15,832",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:15,839",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:15,842",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:15,847",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:15,847",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:16,697",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:17,701",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:17,809",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:17,835",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:17,842",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:17,842",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:17,845",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:18,847",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:19,052",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:19,151",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:19,174",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:19,175",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:20,020",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:21,024",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:21,336",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:21,408",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:21,426",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:21,426",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:21,428",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:22,431",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:22,496",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:22,514",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:22,520",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:22,521",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:23,430",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:24,433",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:24,605",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:24,628",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:24,638",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:24,638",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:24,640",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:25,644",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:25,721",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:25,761",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:25,777",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:25,777",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:26,557",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:27,560",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:27,936",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:28,100",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:28,130",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:28,130",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:28,132",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:29,135",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:29,170",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:29,183",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:29,186",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:29,186",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:30,020",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:31,024",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:31,421",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:31,611",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:31,661",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:31,662",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:31,663",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:32,667",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:33,130",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:33,279",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:33,351",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:33,351",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:34,150",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:35,154",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:35,275",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:35,300",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:35,313",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:35,314",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:35,316",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:36,319",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:36,530",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:36,617",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:36,623",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:36,623",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:37,502",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:38,506",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:38,716",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:38,751",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:38,769",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:38,770",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:38,772",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:39,775",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:40,234",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:40,365",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:40,397",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:40,397",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:41,125",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:42,134",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:42,265",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:42,282",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:42,291",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:42,292",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:42,294",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:43,306",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:43,634",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:43,761",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:43,808",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:43,808",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:46,509",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:47,513",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:47,703",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:47,798",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:47,819",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:47,820",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:47,822",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:48,826",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:48,979",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:48,988",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:48,994",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:48,995",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:50,725",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:51,735",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:51,956",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:52,017",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:52,044",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:52,045",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:52,049",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:53,052",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:53,194",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:53,220",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:53,235",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:53,235",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:54,031",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:55,034",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:55,230",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:55,327",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:55,376",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:55,376",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:55,381",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:56,384",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:56,698",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:56,840",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:56,871",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:56,872",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:57,682",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:58,685",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:58,862",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:58,915",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:58,939",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:58,940",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:58,941",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:08:59,945",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:00,318",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:00,439",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:00,464",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:00,464",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:01,332",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:02,336",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:02,569",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:02,581",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:02,589",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:02,589",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:02,593",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:03,597",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:04,017",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:04,025",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:04,028",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:04,028",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:04,893",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:05,896",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:06,123",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:06,200",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:06,208",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:06,209",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:06,211",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:07,215",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:07,388",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:07,454",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:07,469",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:07,469",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:08,324",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:09,327",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:09,436",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:09,461",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:09,471",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:09,471",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:09,474",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:10,477",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:10,723",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:10,841",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:10,886",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:10,887",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:11,609",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:12,612",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:12,804",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:12,813",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:12,818",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:12,819",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:12,821",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:13,825",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:13,835",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:13,841",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:13,844",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:13,845",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:14,589",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:15,598",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:16,087",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:16,262",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:16,275",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:16,275",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:16,278",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:17,282",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:17,529",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:17,540",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:17,545",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:17,545",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:20,352",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:21,355",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:21,606",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:21,708",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:21,748",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:21,748",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:21,750",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:22,753",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:22,853",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:22,860",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:22,866",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:22,866",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:23,903",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:24,907",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:24,957",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:24,974",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:24,981",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:24,981",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:24,983",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:25,991",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:26,394",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:26,442",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:26,459",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:26,460",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:27,224",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:28,231",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:28,440",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:28,482",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:28,490",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:28,491",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:28,494",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:29,497",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:29,724",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:29,770",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:29,781",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "error": "All connection attempts failed",
+    "status_code": 500
+}
+
+{
+    "timestamp": "2025-09-02 12:09:29,782",
+    "level": "ERROR",
+    "logger_name": "axo-mictlanx",
+    "thread_name": "MainThread",
+    "name": "UNKNOWN_ERROR",
+    "message": "UnknownError (status=500): UnknownError (status=500): All connection attempts failed",
+    "status": 500
+}
+

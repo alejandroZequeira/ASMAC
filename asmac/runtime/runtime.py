@@ -11,7 +11,6 @@ import cloudpickle as pickle
 from asmac.endpoint.endpoint import EndpointManager
 #from asmac.runtime import get_runtime, set_runtime
 from asmac.storage.storage import StorageService
-from asmac.import_manager import  DefaultImportManager
 from asmac.common.metaclass import AsmacMetaClass
 from asmac.scheduler import Task
 

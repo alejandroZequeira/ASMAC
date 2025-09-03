@@ -1,11 +1,8 @@
 from axo import Axo, axo_method
 from axo.endpoint.manager import DistributedEndpointManager
 from axo.contextmanager.contextmanager import AxoContextManager
-from axo.storage.data import MictlanXStorageService
-import axo.storage.data as axo_data 
 
-axo_data.Axo = Axo
-axo_data.axo_method = axo_method
+
 
 from .common import User,Object,service,Mesh,ASMACMeta,BindingObject
 from .storage import StorageService, MongoDBStorageService
@@ -147,7 +144,7 @@ class ASMaC_Backend:
             return None
         
     # funciones para manejo de objetos
-    async def set_object(obj:Axo,alias:str="",is_public: bool=False,user_id:str="",storage_service:StorageService=default_storage_service):
+    async def set_object(obj_key:str="",class_code:str="",bucket_id:str="",alias:str="",is_public: bool=False,user_id:str="",storage_service:StorageService=default_storage_service):
         start=T.time()
         new_object = Object()
         exist_object =  storage_service.get("objects", condition={"user_id": user_id, "alias": alias})
@@ -160,7 +157,7 @@ class ASMaC_Backend:
                 })
             return Err(f"El objeto con alias '{alias}' ya existe para el usuario {user_id}.")
         else:
-            res= await new_object.set_object(obj=obj, alias=alias, is_public=is_public, user_id=user_id)
+            res= await new_object.set_object(obj_key=obj_key,class_code=class_code,bucket_id=bucket_id, alias=alias, is_public=is_public, user_id=user_id)
             #print(res)
             if res.is_ok:
                 print(new_object)
@@ -197,46 +194,63 @@ class ASMaC_Backend:
                 #print(f"Error al preparar objeto: {res}")
                 return Err(f"Error al preparar objeto: {res}")
 
-    async def get_object_by_alias(alias: str,user_id:str, storage_service:StorageService=default_storage_service):
+    def get_object_by_alias(alias: str,user_name:str, storage_service:StorageService=default_storage_service):
         start=T.time()
-        result=storage_service.get("objects", condition={"user_id":user_id, "alias":alias})
-        #print(f"Resultado de la búsqueda por alias '{alias}': {result}")
-        if result.is_ok:
-            result=result.unwrap()
-            #print(f"Objeto encontrado: {result}")
-            with AxoContextManager.distributed(endpoint_manager=init_axo()) as cx:
-                #print(result["key"], result["bucket_id"])
-                data= await Axo.get_by_key( bucket_id=result["bucket_id"],key=result["key"])
-                #print(f"Objeto recuperado por alias '{alias}': {data}")
-                if data.is_ok:
-                    logger.info({
+        user=storage_service.get("users",condition={"user_name":user_name})
+        if user.is_ok:
+            user=user.unwrap()
+            res=storage_service.get("objects", condition={"user_id":user["user_id"], "alias":alias})
+            if res.is_ok:
+                res=res.unwrap()
+                logger.info({
                         "event": "GET.OBJECT",
                         "mode":"DISTRIBUTED",
-                        "object_key": result["key"],
-                        "user_id": user_id,
+                        "object_key": res["key"],
+                        "user_id": user["user_id"],
                         "mensage": f"Object '{alias}' retrieved successfully",
                         "response_time": T.time() - start,  
                     })
-                    return data
-                else:
+                return Ok(res)
+            else:
                     logger.error({
                         "event": "GET.OBJECT",
                         "mode":"DISTRIBUTED",
                         "mensage": f"Error retrieving object '{alias}'",
                         "response_time": T.time() - start,  
                     })
-                    #print(f"Error al recuperar objeto por alias: {data}")
-                    return Err(f"Error al recuperar objeto por alias '{alias}': {data}")
+                    return Err(f"Error al recuperar objeto por alias '{alias}'")
         else:
-            #print(f"Error al buscar objeto por alias: {result}")
             logger.error({
                         "event": "GET.OBJECT",
                         "mode":"DISTRIBUTED",
-                        "mensage": f"Error finding object '{alias}'",
+                        "mensage": f"Error user '{user_name}' not exist",
                         "response_time": T.time() - start,  
                     })
-            return Err(f"Error al buscar objeto por alias '{alias}': {result}")
+            return Err(f"Error al buscar objeto por alias '{alias}': {res}")
     
+    def get_objects(user_id:str,storage_service: StorageService=default_storage_service):
+        start=T.time()
+        res=storage_service.gets("objects", condition={"user_id":user_id})
+        if res.is_ok:
+            res=res.unwrap()
+            logger.info({
+                        "event": "GET.OBJECT",
+                        "mode":"DISTRIBUTED",
+                        "user_id": user_id,
+                        "mensage": f"Objects for '{user_id}' retrieved successfully",
+                        "response_time": T.time() - start,  
+                    })
+            print("response in get.objets, ",res)
+            return Ok(res)
+        else:
+            res=res.unwrap()
+            logger.error({
+                        "event": "GET.OBJECT",
+                        "mode":"DISTRIBUTED",
+                        "mensage": f"Error retrieving objects for '{user_id}'",
+                        "response_time": T.time() - start,  
+                    })
+            return Err(res)
     #funciones para manejo de las mallas
     def create_mesh(mesh_name:str, description:str, user_id:str, storage_service:StorageService=default_storage_service):
         start=T.time()

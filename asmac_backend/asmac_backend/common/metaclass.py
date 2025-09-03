@@ -82,14 +82,16 @@ class Object:
     user_id: str
     is_public: bool
     is_binding:bool
+    class_code:str
     
-    def __init__(self,key:str="",alias:str="",bucket_id:str="",user_id:str="",is_public: bool=False,is_binding:bool=False):
+    def __init__(self,key:str="",alias:str="",bucket_id:str="",class_code:str="",user_id:str="",is_public: bool=False,is_binding:bool=False):
         self.key=key
         self.alias=alias
         self.bucket_id=bucket_id
         self.user_id=user_id
         self.is_public=is_public
         self.is_binding=is_binding  
+        self.class_code=class_code
     
     def to_json(self):
         return {
@@ -97,7 +99,8 @@ class Object:
             "alias": self.alias,
             "bucket_id": self.bucket_id,
             "user_id": self.user_id,
-            "is_public": str(self.is_public)
+            "is_public": str(self.is_public),
+            "class_code":self.class_code
         }
     def set_public(self):
         self.is_public = True
@@ -105,17 +108,14 @@ class Object:
     async def get_object_by_alias(self) ->Result[Axo,Any]:
         return await Axo.get_by_key(key=self.key,bucket_id=self.bucket_id)
     
-    async def set_object(self, obj:Axo, alias:str=None, is_public:bool=False, user_id:str=None) -> Result[Axo, Any]:
-        
-        self.key = obj.get_axo_key()
+    async def set_object(self,class_code:str="", obj_key:str="",bucket_id:str="", alias:str=None, is_public:bool=False, user_id:str=None) -> Result[Axo, Any]:        
+        self.key = obj_key
         self.alias = alias
-        self.bucket_id = obj.get_axo_bucket_id()
+        self.bucket_id =bucket_id
         self.user_id = user_id
         self.is_public = is_public
-        print(obj.get_endpoint_id())
-        with AxoContextManager.distributed(endpoint_manager=init_axo()) as cx:
-            res=await obj.persistify()
-        return Ok(res) if res else Err("Error persisting object")
+        self.class_code=class_code
+        return Ok("object created") 
     
 class BindingObject(Object):
     graf:list[Dict]

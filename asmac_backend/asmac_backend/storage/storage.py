@@ -21,7 +21,10 @@ class StorageService:
     def put(self,bd:str,key:str,data:ASMACMeta)->Result[str,Exception]:
         pass
     @abstractmethod
-    def get(self,bd:str,key:str,condition:str)->Result[bytes,Exception]:
+    def get(self,collection_name: str,condition:str)->Result[bytes,Exception]:
+        pass
+    @abstractmethod
+    def gets(self,collection_name: str,condition:str)->Result[bytes,Exception]:
         pass
     @abstractmethod
     def update(self,bd:str,key:str,condition:str,new_values:Dict[str,Any])->Result[str,Exception]:
@@ -68,7 +71,22 @@ class MongoDBStorageService(StorageService):
             return Ok(result)  # devuelve todo el documento como dict
         except Exception as e:
             return Err(e)
+    def gets(self, collection_name: str, condition: Dict[str, Any]) -> Result[Dict[str, Any], Exception]:
+        try:
+            #print(condition)
+            #print(collection_name)
+            collection = self.db[collection_name]
+            result = collection.find(condition)
+            #print(f"Resultado de la búsqueda en '{collection_name}': {result}")
+            
+            if not result:
+                return Err(Exception(f"No se encontró ningún documento en '{collection_name}' con la condición: {condition}"))
+            
+            return Ok(result)  # devuelve todo el documento como dict
         
+        except Exception as e:
+            return Err(e)
+    
     def update(
         self,
         collection_name: str,

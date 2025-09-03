@@ -1,13 +1,13 @@
 services:
     asmac-backend:
-        image: alejandrozequeira/asmac-backend:0.0.01
+        image: alejandrozequeira/asmac-backend:0.0.2
         container_name: asmac_backend
         ports:
         - "4555:4555"
         environment:
         - ASMAC_BACKEND_PORT=4555
         - MONGO_HOST=mongo
-        - MONGO_PORT=27017
+        - MONGO_PORT=27018
         - MONGO_USERNAME=admin
         - MONGO_PASSWORD=admin
         - MONGO_AUTH_DB=admin
@@ -26,7 +26,7 @@ services:
         container_name: asmac_mongo
         hostname: mongo
         ports:
-        - "27017:27017"
+        - "27018:27018"
         volumes:
         - mongo_data:/data/db
         networks:
@@ -54,7 +54,7 @@ services:
         - mongo
 
     activex-endpoint-0:
-        image: nachocode/axo:endpoint-0.0.2
+        image: nachocode/axo:endpoint-0.0.3a0
         container_name: axo-endpoint-0
         ports:
         - "16666:16666"
@@ -82,7 +82,7 @@ services:
         - MICTLANX_LOG_OUTPUT_PATH=/log
         - MICTLANX_MAX_WORKERS=4
         - MICTLANX_ROUTERS=axo-storage-router-0:axo-storage-router-0:60666
-        - MICTLANX_ROUTERS=axo-storage-router-0:148.247.202.72:60666
+        #- MICTLANX_ROUTERS=axo-storage-router-0:148.247.202.72:60666
         
 
 
